@@ -14,13 +14,14 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  & > * {margin: 3px}
+  & > * {margin: 5px}
   .navigate_before, .navigate_next {cursor: pointer}
 }
 table {
   border-collapse: collapse;
   th, td {
     border: 1px solid gray;
+    padding: 3px;
     text-align: center;
   }
   td.active {background-color: greenyellow}
