@@ -1,2 +1,2 @@
 # calendar
-A simple calendar (russian)
+A simple russian calendar
