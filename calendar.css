@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between; }
   .calendar_header > * {
-    margin: 3px; }
+    margin: 5px; }
   .calendar_header .navigate_before, .calendar_header .navigate_next {
     cursor: pointer; }
 
@@ -23,6 +23,7 @@ table {
   border-collapse: collapse; }
   table th, table td {
     border: 1px solid gray;
+    padding: 3px;
     text-align: center; }
   table td.active {
     background-color: greenyellow; }
