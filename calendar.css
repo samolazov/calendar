@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.calendar_header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between; }
+  .calendar_header > * {
+    margin: 3px; }
+  .calendar_header .navigate_before, .calendar_header .navigate_next {
+    cursor: pointer; }
+
+table {
+  border-collapse: collapse; }
+  table th, table td {
+    border: 1px solid gray;
+    text-align: center; }
+  table td.active {
+    background-color: greenyellow; }
+  table td.neighbor {
+    color: lightgray; }
